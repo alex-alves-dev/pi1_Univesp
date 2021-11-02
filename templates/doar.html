@@ -3,7 +3,7 @@
 {% block content %}
     <h1> {%block title %} Área de doação: Relação de Cadastrados {% endblock %}</h1>
 <br>
-<form method="get">
+<!-- <form method="get">
     <div class="form-group w3-center">
         <label for="bairro">Filtro: Digite o seu Bairro e a Cidade</label><br>
         <input type="text" name="bairro" placeholder="Bairro" class="textbox-control" value="{{ request.form['bairro'] }}">
@@ -16,6 +16,7 @@
         <button type="submit" class="btn btn-primary">Filtar</button>
     </div>
 </form>
+-->
 <br>
     {% for post in posts %}
         <a href="{{ url_for('post', post_id=post['id'])}}">

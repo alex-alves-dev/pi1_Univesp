@@ -1,4 +1,4 @@
-# Prototipo - Projeto Integrador 1 UNIVESP - Polo Conchal.
+Projeto Integrador 1 UNIVESP - Polo Conchal.
 
 O Projeto Integrador I tem como objetivo o desenvolvimento de um software com framework web que utilize noções de banco de dados, praticando controle de versão.
 
